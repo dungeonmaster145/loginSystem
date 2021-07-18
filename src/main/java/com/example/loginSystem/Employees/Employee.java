@@ -1,4 +1,4 @@
-package com.example.loginSystem;
+package com.example.loginSystem.Employees;
 
 import lombok.AllArgsConstructor;
 

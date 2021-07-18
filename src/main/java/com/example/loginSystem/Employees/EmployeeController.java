@@ -1,4 +1,4 @@
-package com.example.loginSystem;
+package com.example.loginSystem.Employees;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class EmployeeController {
     public List<Employee> listAllEmployees(){
         return employeeRepository.findAll();
     }
-    @PostMapping("/employees/{id")
+    @PostMapping("/employees/{id}")
     public Employee addNewEmployee(@RequestBody Employee employee){
         return employeeRepository.save(employee);
     }
